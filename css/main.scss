@@ -1,0 +1,49 @@
+@import "_variables";
+@import "_esfera";
+@import "_mixin";
+
+*{
+	box-sizing:border-box;
+}
+
+.container{
+	background:white;
+
+	.esfera{
+		background:$color-esfera;
+		border-radius: $base-tamanio-esfera/2;
+		height: $base-tamanio-esfera;
+		width: $base-tamanio-esfera;
+		@include star;
+	}
+	.estrella-1{
+		@include star-center;
+		@include star;
+	}
+	.estrella-2{
+		@include star-center(16px, 36px);
+		@include star(22px);
+	}
+	.estrella-3{
+		@include star-center(15px, 30px);
+		@include star(20px);
+	}
+	.estrella-4{
+		@include star-center(14px, 28px);
+		@include star(19px);
+	}
+	.estrella-5{
+		@include star-center(13px, 24px);
+		@include star(18px);
+	}
+	.estrella-6{
+		@include star-center(12px, 20px);
+		@include star(17px);
+	}
+	.estrella-7{
+		@include star-center(12px, 18px);
+		@include star(16px);
+	}
+
+
+}

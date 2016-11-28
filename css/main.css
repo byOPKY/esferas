@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  background: white; }
+  .container .esfera {
+    background: #ff9933;
+    border-radius: 60px;
+    height: 120px;
+    width: 120px; }
+    .container .esfera .star-five {
+      margin: 10px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .esfera .star-five:before {
+      border-bottom: 16px solid #ff0000;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -9px;
+      left: -13px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .esfera .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.6px;
+      left: -21px;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 15px; }
+    .container .estrella-1 .star-five {
+      margin: 10px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-1 .star-five:before {
+      border-bottom: 16px solid #ff0000;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -9px;
+      left: -13px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-1 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.6px;
+      left: -21px;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 36px 16px; }
+    .container .estrella-2 .star-five {
+      margin: 11px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 22px solid transparent;
+      border-bottom: 15.4px solid #ff0000;
+      border-left: 22px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-2 .star-five:before {
+      border-bottom: 17.6px solid #ff0000;
+      border-left: 6.6px solid transparent;
+      border-right: 6.6px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -9.9px;
+      left: -14.3px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-2 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.66px;
+      left: -23.1px;
+      width: 0px;
+      height: 0px;
+      border-right: 22px solid transparent;
+      border-bottom: 15.4px solid #ff0000;
+      border-left: 22px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 15px; }
+    .container .estrella-3 .star-five {
+      margin: 10px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-3 .star-five:before {
+      border-bottom: 16px solid #ff0000;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -9px;
+      left: -13px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-3 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.6px;
+      left: -21px;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 28px 14px; }
+    .container .estrella-4 .star-five {
+      margin: 9.5px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 19px solid transparent;
+      border-bottom: 13.3px solid #ff0000;
+      border-left: 19px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-4 .star-five:before {
+      border-bottom: 15.2px solid #ff0000;
+      border-left: 5.7px solid transparent;
+      border-right: 5.7px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -8.55px;
+      left: -12.35px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-4 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.57px;
+      left: -19.95px;
+      width: 0px;
+      height: 0px;
+      border-right: 19px solid transparent;
+      border-bottom: 13.3px solid #ff0000;
+      border-left: 19px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 24px 13px; }
+    .container .estrella-5 .star-five {
+      margin: 9px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 18px solid transparent;
+      border-bottom: 12.6px solid #ff0000;
+      border-left: 18px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-5 .star-five:before {
+      border-bottom: 14.4px solid #ff0000;
+      border-left: 5.4px solid transparent;
+      border-right: 5.4px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -8.1px;
+      left: -11.7px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-5 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.54px;
+      left: -18.9px;
+      width: 0px;
+      height: 0px;
+      border-right: 18px solid transparent;
+      border-bottom: 12.6px solid #ff0000;
+      border-left: 18px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 12px; }
+    .container .estrella-6 .star-five {
+      margin: 8.5px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 17px solid transparent;
+      border-bottom: 11.9px solid #ff0000;
+      border-left: 17px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-6 .star-five:before {
+      border-bottom: 13.6px solid #ff0000;
+      border-left: 5.1px solid transparent;
+      border-right: 5.1px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -7.65px;
+      left: -11.05px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-6 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.51px;
+      left: -17.85px;
+      width: 0px;
+      height: 0px;
+      border-right: 17px solid transparent;
+      border-bottom: 11.9px solid #ff0000;
+      border-left: 17px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 18px 12px; }
+    .container .estrella-7 .star-five {
+      margin: 8px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 16px solid transparent;
+      border-bottom: 11.2px solid #ff0000;
+      border-left: 16px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-7 .star-five:before {
+      border-bottom: 12.8px solid #ff0000;
+      border-left: 4.8px solid transparent;
+      border-right: 4.8px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -7.2px;
+      left: -10.4px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-7 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.48px;
+      left: -16.8px;
+      width: 0px;
+      height: 0px;
+      border-right: 16px solid transparent;
+      border-bottom: 11.2px solid #ff0000;
+      border-left: 16px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+
+/*# sourceMappingURL=main.css.map */
